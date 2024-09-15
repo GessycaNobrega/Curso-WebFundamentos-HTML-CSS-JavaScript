@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Fit content</title>
+
+    <style>
+
+        .container{
+            border: 2px solid black;
+            padding: 16px;
+            width: 500px;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content.item{
+
+            width: fit-content;
+        }
+
+        .min-content .item{
+
+            width:min-content;
+        }
+
+        .max-content .item{
+
+            width: max-content;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container fit-content">
+        
+        <div class = "item">lorem</div>
+        <div class = "item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, culpa!</div>
+        <div class = "item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore iure eveniet nostrum vero similique eius tempore. Ex, est minima cupiditate aliquam cumque tempore magni a!</div>
+        <div class = "item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nulla corporis minus veniam, neque tempora illo architecto, tenetur dolorem iste veritatis doloribus corrupti earum dicta voluptatum quibusdam nobis, modi optio animi facilis numquam ipsa harum obcaecati? Eos, veniam soluta nobis similique placeat porro minima harum labore omnis quam laudantium vero maiores quaerat! Accusamus obcaecati doloribus, atque explicabo, ut dolore commodi a magni tenetur asperiores nesciunt cumque voluptas cum aliquam qui at sit maxime, reiciendis laboriosam!</div>
+
+    </div>
+
+    <br>
+
+
+    <div class="container min-content">
+        
+        <div class = "item">lorem</div>
+        <div class = "item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, culpa!</div>
+        <div class = "item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore iure eveniet nostrum vero similique eius tempore. Ex, est minima cupiditate aliquam cumque tempore magni a!</div>
+        <div class = "item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nulla corporis minus veniam, neque tempora illo architecto, tenetur dolorem iste veritatis doloribus corrupti earum dicta voluptatum quibusdam nobis, modi optio animi facilis numquam ipsa harum obcaecati? Eos, veniam soluta nobis similique placeat porro minima harum labore omnis quam laudantium vero maiores quaerat! Accusamus obcaecati doloribus, atque explicabo, ut dolore commodi a magni tenetur asperiores nesciunt cumque voluptas cum aliquam qui at sit maxime, reiciendis laboriosam!</div>
+
+    </div>
+    <br>
+
+    <div class="container max-content">
+        
+        <div class = "item">lorem</div>
+        <div class = "item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, culpa!</div>
+        <div class = "item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore iure eveniet nostrum vero similique eius tempore. Ex, est minima cupiditate aliquam cumque tempore magni a!</div>
+        <div class = "item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nulla corporis minus veniam, neque tempora illo architecto, tenetur dolorem iste veritatis doloribus corrupti earum dicta voluptatum quibusdam nobis, modi optio animi facilis numquam ipsa harum obcaecati? Eos, veniam soluta nobis similique placeat porro minima harum labore omnis quam laudantium vero maiores quaerat! Accusamus obcaecati doloribus, atque explicabo, ut dolore commodi a magni tenetur asperiores nesciunt cumque voluptas cum aliquam qui at sit maxime, reiciendis laboriosam!</div>
+
+    </div>
+</body>
+</html>
